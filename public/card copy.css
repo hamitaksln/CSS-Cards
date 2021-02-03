@@ -42,13 +42,10 @@ body {
   min-width: 250px;
   padding: 1.5rem;
   border-radius: 16px;
-  background: rgb(23, 20, 29, 0.2);
-  backdrop-filter: blur(15px);
-  box-shadow: rgb(255 255 255 / 20%) 0px 0px 0px 0.5px inset;
+  background: #17141d;
   box-shadow: -1rem 0 3rem #000;
   transition: 0.2s;
 }
-
 
 .card:hover {
   transform: translateY(-1rem) rotate(5deg);
@@ -72,36 +69,36 @@ body {
 }
 
 .author-avatar img {
-  display: block;
+  display:block;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   filter: grayscale(100%);
-  margin: 16px 10px;
+  margin:16px 10px;
   overflow: hidden;
 }
 
-.half-circle {
+.half-circle{
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 60px;
-  height: 48px;
-  fill: none;
+  bottom:0;
+  left:0;
+  width:60px;
+  height:48px;
+  fill:none;
   stroke: #ff8a00;
   stroke-width: 8;
   stroke-linecap: round;
   pointer-events: none;
 }
 
-.author-name-prefix {
+.author-name-prefix{
   font-style: normal;
   font-weight: 700;
-  color: #7a7a8c;
+  color:#7a7a8c;
 }
 
-.card-header h2:hover {
-  background: linear-gradient(90deg, #ff8a00, #e52e71);
+.card-header h2:hover{
+  background:linear-gradient(90deg,#ff8a00,#e52e71);
   text-shadow: none;
   background-clip: text;
   -webkit-background-clip: text;
