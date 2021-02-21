@@ -1,4 +1,4 @@
 # CSS-Cards
-https://css-card.herokuapp.com/
+https://css-cards.vercel.app/
 
 [Animated CSS Cards](https://fireship.io/lessons/css-cards-animated/)
